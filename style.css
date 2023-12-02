@@ -210,18 +210,9 @@ main img {
      display: block;
  }
 
- div.video {
+
    
-    position:relative;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    text-align: center;
-    display: flex; 
-    align-items: center; 
-    justify-content: center;
-
- }
-
+ 
  #baixar {
     border-radius: 10px;
     color: var(--cor1);
@@ -242,20 +233,18 @@ main img {
     margin-top: 20px;
  }
 
- .lista {
-    list-style-position: inside;
-    text-align: left;
-}
 
 
 
 div.box {
-    background-color: var(--cor3);
-    padding: 10px;
-    border-radius: 10px;
+    background-color: var(--cor1);
+    padding-right: 10px;
+    border-radius: 20px;
+    padding-top: 20px;;
     box-shadow: 3px 3px 3px rgb(0, 0, 0);
     text-align: left;
-    background-image:linear-gradient(to top, var(--cor5), transparent);
+    background-image:linear-gradient(to top, var(--cor1), transparent);
+   
 }
 .btn {
     
@@ -271,12 +260,7 @@ div.box {
   }
 
  
- .btn {
 
-
- }
-
- 
   footer {
     
     color: var(--cor1);
